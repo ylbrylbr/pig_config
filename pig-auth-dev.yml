@@ -1,6 +1,5 @@
 server:
   port: 3000
-
 pig:
   auth:
     clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)

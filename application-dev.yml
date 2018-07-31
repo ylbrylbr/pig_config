@@ -6,7 +6,7 @@ jasypt:
 spring:
   redis:
     remote: true        #是否是cachecloud 获取
-    host: 106.14.69.75
+    host: 192.168.8.101
     port: 6381
     password:
   http:

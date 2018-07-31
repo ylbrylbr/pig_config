@@ -2,7 +2,6 @@
 jasypt:
   encryptor:
     password: lengleng
-
 spring:
   redis:
     remote: true        #是否是cachecloud 获取
@@ -13,11 +12,9 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
-
 cache:
   redis:
     expiration: 3601
-
 ribbon:
   Httpclient:
     enable: false
@@ -25,7 +22,6 @@ ribbon:
     enable: true
   ReadTimeout: 30000
   ConnectTimeout: 30000
-  
 feign:
   okhttp:
     enable: true

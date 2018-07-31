@@ -1,6 +1,5 @@
 server:
   port: 9999
-
 spring:
   rabbitmq:
     host: 192.168.8.101
